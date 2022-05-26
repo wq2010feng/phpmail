@@ -20,5 +20,12 @@
     "require": {
         "php": ">=7.0.0",
         "phpmailer/phpmailer": "^6.6"
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "mailsmtp": "src/config/mailsmtp.php"
+            }
+        }
     }
 }
